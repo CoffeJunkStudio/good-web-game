@@ -457,7 +457,7 @@ impl Font {
     pub(crate) fn default_font_bytes() -> &'static [u8] {
         include_bytes!(concat!(
             env!("CARGO_MANIFEST_DIR"),
-            "/resources/LiberationMono-Regular.ttf"
+            "/resources/press-start.k.ttf"
         ))
     }
 }
